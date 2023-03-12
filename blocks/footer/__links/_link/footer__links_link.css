@@ -1,0 +1,14 @@
+.footer__links_link {
+    margin: 0;
+    padding-right: 18px;
+
+    color: #fff;
+    outline: none;
+    text-decoration: none;
+}
+
+@media screen and (max-width: 620px) {
+    .footer__links li {
+        padding-bottom: 32px;
+    }
+}

@@ -1,0 +1,12 @@
+.header__lang-link_lang_en {
+    margin: 0;
+    margin-left: 18px;
+
+    color: #fff;
+    outline: none;
+    text-decoration: none;
+}
+
+.header__lang-link_lang_en:active {
+    border-bottom: 2px solid #fff;
+}

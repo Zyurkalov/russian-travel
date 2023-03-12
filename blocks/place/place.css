@@ -1,0 +1,52 @@
+.place {
+    padding-bottom: 80px;
+
+    display: grid;
+    justify-content: space-between;
+    grid-template-columns: calc(50% - 32px) calc(50% - 8px);
+    row-gap: 48px;
+}
+
+.place:last-child {
+    padding-bottom: 92px;
+}
+
+/*тут идет расчет для внутреннего отступа, чтобы направляющие секции place и photo-grid совпали*/
+@media all and (max-width: 1024px) {
+    .place {
+        grid-template-columns: calc(50% - 24px) calc(50% - 8px);
+    }
+}
+
+@media all and (max-width: 768px) {
+    .place {
+        padding-bottom: 73px;
+        grid-template-columns: calc(50% - 20px) calc(50% - 8px);
+    }
+
+    .place:last-child {
+        padding-bottom: 11.78vw;
+    }
+}
+
+@media all and (max-width: 600px) {
+    .place {
+        padding-bottom: 50px;
+
+        grid-template-columns: 100%;
+        row-gap: 32px;
+    }
+
+    .place:last-child {
+        padding-bottom: 68px;
+        grid-template-columns: 100%;
+    }
+}
+
+@media all and (max-width: 360px) {
+    .place {
+        padding-bottom: 50px;
+        width: 100%;
+
+    }
+}

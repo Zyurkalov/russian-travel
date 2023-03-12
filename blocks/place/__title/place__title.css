@@ -1,0 +1,33 @@
+.place__title {
+  margin: 0;
+
+  font-weight: 900;
+  font-size: 72px;
+  line-height: 76px;
+  color: #fff;
+}
+
+/*здесь размер указан в vw для избежания переполнения блока*/
+@media all and (max-width: 1028px) {
+  .place__title {
+    font-size: 6.66vw;
+    line-height: 7.07vw;
+  }
+}
+
+@media all and (max-width: 768px) {
+  .place__title {
+    font-size: 42px;
+    line-height: 46px;
+  }
+}
+
+@media all and (max-width: 320px) {
+  .place__title {
+    padding-left: 5%;
+    padding-right: 5%;
+
+    font-size: 32px;
+    line-height: 35px;
+  }
+}

@@ -1,0 +1,13 @@
+.link-animation_time_short:hover {
+    animation: links_opacity 0.3s ease-in-out forwards;
+}
+
+@keyframes links_opacity {
+    from {
+        opacity: 1
+    }
+
+    to {
+        opacity: 0.8;
+    }
+}
