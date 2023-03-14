@@ -1,4 +1,4 @@
-.header__lang-link_lang_en {
+.header__lang-link_lang-en {
     margin: 0;
     margin-left: 18px;
 
@@ -7,6 +7,6 @@
     text-decoration: none;
 }
 
-.header__lang-link_lang_en:active {
+.header__lang-link_lang-en:active {
     border-bottom: 2px solid #fff;
 }
