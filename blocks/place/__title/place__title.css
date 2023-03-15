@@ -8,10 +8,10 @@
 }
 
 /*здесь размер указан в vw для избежания переполнения блока*/
-@media all and (max-width: 1028px) {
+@media all and (max-width: 1024px) {
   .place__title {
-    font-size: 6.66vw;
-    line-height: 7.07vw;
+    font-size: 7.05vw;
+    line-height: 7.42vw;
   }
 }
 

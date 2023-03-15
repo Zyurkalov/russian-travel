@@ -1,0 +1,26 @@
+.place__link {
+    margin: 0;
+    padding-top: 12px;
+  
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    text-decoration: underline;
+    text-underline-offset: 0.3em;
+  
+    color: #fff;
+  }
+
+  .place__link:hover {
+    animation: links_opacity 0.3s ease-in-out forwards;
+}
+
+@keyframes links_opacity {
+    from {
+        opacity: 1
+    }
+
+    to {
+        opacity: 0.8;
+    }
+}

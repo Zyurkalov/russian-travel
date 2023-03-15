@@ -1,4 +1,4 @@
-.cover__text-container_subtitle {
+.cover__subtitle {
     margin: 0;
     max-width: 360px;
 
@@ -13,21 +13,21 @@
 
 @media screen and (max-width: 768px) {
 
-    .cover__text-container_subtitle {
+    .cover__subtitle {
         width: calc(100vw /2.13);
         font-size: 2.34vw;
         line-height: 2.86vw;
     }
 }
 @media screen and (max-width: 550px) {
-    .cover__text-container_subtitle {
+    .cover__subtitle {
         width: calc(100vw /1.20);
         font-size: 3.37vw;
         line-height: 3.91vw;
     }
 }
 @media screen and (max-width: 320px) {
-    .cover__text-container_subtitle {
+    .cover__subtitle {
         width: 90%;
         font-size: 4.37vw;
         line-height: 5vw;

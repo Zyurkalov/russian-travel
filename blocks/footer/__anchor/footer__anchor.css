@@ -1,4 +1,12 @@
-.link-animation_time_short:hover {
+.footer__anchor {
+    margin: 0;
+    padding-right: 18px;
+
+    color: #fff;
+    outline: none;
+    text-decoration: none;
+}
+.footer__anchor:hover {
     animation: links_opacity 0.3s ease-in-out forwards;
 }
 

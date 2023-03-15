@@ -1,0 +1,23 @@
+.lang-list__language {
+    margin: 0;
+
+    color: #fff;
+    outline: none;
+    text-decoration: none;
+}
+.lang-list__language:last-child {
+    margin-left: 18px;
+}
+
+@keyframes links_opacity {
+    from {
+        opacity: 1
+    }
+
+    to {
+        opacity: 0.8;
+    }
+}
+.lang-list__language:hover {
+    animation: links_opacity 0.3s ease-in-out forwards;
+}

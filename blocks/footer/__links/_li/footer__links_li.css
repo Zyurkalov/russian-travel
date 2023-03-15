@@ -1,0 +1,5 @@
+@media screen and (max-width: 620px) {
+    .footer__links_li {
+        padding-bottom: 32px;
+    }
+}

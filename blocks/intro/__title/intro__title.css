@@ -14,3 +14,9 @@
         line-height: 7.5vw;
     }
 }
+@media screen and (max-width: 320px) {
+    .intro__title {
+        font-size: 10vw;
+        line-height: 10.93vw;
+    }
+}

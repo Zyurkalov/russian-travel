@@ -43,10 +43,14 @@
     }
 }
 
-@media all and (max-width: 360px) {
+@media all and (max-width: 320px) {
     .place {
         padding-bottom: 50px;
         width: 100%;
+
+    }
+    .place:last-child {
+        padding-bottom: 66px;
 
     }
 }
