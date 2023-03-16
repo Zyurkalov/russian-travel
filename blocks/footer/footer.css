@@ -1,5 +1,5 @@
 .footer {
-    padding: 92px 48px 48px;
+    padding: 92px 48px 24px;
 
     box-sizing: border-box;
 
@@ -26,6 +26,7 @@
         align-items: flex-start;
     }
 }
+
 @media screen and (max-width: 320px) {
     .footer {
         padding: 64px 16px 12px;

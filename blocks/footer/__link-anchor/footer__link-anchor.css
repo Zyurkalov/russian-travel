@@ -1,16 +1,13 @@
-.lang-list__language {
+.footer__link-anchor {
     margin: 0;
+    padding-right: 18px;
 
     color: #fff;
     outline: none;
     text-decoration: none;
 }
 
-.lang-list__language:last-child {
-    margin-left: 18px;
-}
-
-.lang-list__language:hover {
+.footer__link-anchor:hover {
     opacity: 0.8;
     transition: 0.3s;
 }

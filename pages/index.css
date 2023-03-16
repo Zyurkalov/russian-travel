@@ -55,9 +55,9 @@
 /*footer*/
 @import url(../blocks/footer/footer.css);
 @import url(../blocks/footer/__links/footer__links.css);
-@import url(../blocks/footer/__links/_li/footer__links_li.css);
-@import url(../blocks/footer/__anchor/footer__anchor.css); /*якорь*/
-@import url(../blocks/footer/__author/footer__author.css); /*автор*/
+@import url(../blocks/footer/__list/footer__list.css);
+@import url(../blocks/footer/__link-anchor/footer__link-anchor.css);
+@import url(../blocks/footer/__author/footer__author.css);
 
 
 
