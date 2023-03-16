@@ -1,5 +1,5 @@
 PROJECT: 'russian-travel' - Yandex-Practicum
-https://github.com/Zyurkalov/russian-travel.git
+https://zyurkalov.github.io/russian-travel/
 
 Author: Zyurkalov AV
 
