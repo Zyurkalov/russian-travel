@@ -1,18 +1,17 @@
-PROJECT: 'russian-travel' - Yandex-Practicum
-https://zyurkalov.github.io/russian-travel/
+# Проектная работа - russian-travel
+> Одностраничный сайт про путешествия по Росии
 
-Author: Zyurkalov AV
+### Реализовано:
+- изучена методология БЭМ
+- проект свёрстан с адаптивом как для десктоп, так и мобильной версии
 
-Used technologies:
-- HTML / CSS:
+### Установка / запуск:
 
+- Для ознакомления достаточно перейти по ссылке:
+  https://zyurkalov.github.io/russian-travel/
+- Для развертывания проекта:
+  - склонировать репозитории `git@github.com:Zyurkalov/russian-travel.git`
+
+### Используемые инструменты:
+- HTML / CSS
 - responsive web design
-- flex
-- grid
-- container
-- positioning
-- @import
-- @keyframes
-- @media
-- meta
-- BEM
